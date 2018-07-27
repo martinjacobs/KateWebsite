@@ -1,7 +1,34 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+baseURL = "http://www.example.com"
+title = "My Website Title!!!"
+theme = "apricot-hugo-theme"
+summaryLength = 15
+copyright = "Copyright &copy; 2018 Kate Jacobs. All Rights Reserved."
+        googleAnalytics = "XXXXX"
+        disqusShortname = "XXXXX"
+
+        # Pagination.  Show 10 articles in the home page
+        paginate = 10
+
+        sectionPagesMenu = "main"
+        [menu]
+         [[menu.main]]
+            name = "Github"
+            url = "https://github.com/GITHUB_USERNAME/"
+            weight = -110
+
+        [blackfriday]
+            extensions = [ "noEmptyLineBeforeBlock"]
+                extensionsmask = ["spaceHeaders", "backslashLineBreak"]
+
+        [params]
+                email = "ME@example.com"
+                github= "GITHUB_USERNAME"
+                twitter = "TWITTER_NAME"
+                headerImage = "https://source.unsplash.com/zgTXw53Pdko/800x450"
+
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
