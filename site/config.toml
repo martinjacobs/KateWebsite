@@ -1,7 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-baseURL = "http://www.example.com"
 title = "My Website Title!!!"
 theme = "apricot-hugo-theme"
 summaryLength = 15
