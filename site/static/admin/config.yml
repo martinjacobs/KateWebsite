@@ -7,7 +7,7 @@ media_folder: 'site/static/images/uploads' # Media files will be stored in the r
 public_folder: '/images/uploads' # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: 'site/content' # Used in routes, e.g., /admin/collections/blog
+  - name: 'content' # Used in routes, e.g., /admin/collections/blog
     label: 'content' # Used in the UI
     folder: 'site/content' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
